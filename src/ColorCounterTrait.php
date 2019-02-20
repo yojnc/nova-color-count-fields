@@ -44,11 +44,14 @@ trait ColorCounterTrait
 
     /**
      * @param bool $showCounter
+     * @return $this
      */
     public function withCounter(bool $showCounter = true)
     {
         $this->withMeta([
             'counter' => $showCounter,
         ]);
+
+        return $this;
     }
 }
