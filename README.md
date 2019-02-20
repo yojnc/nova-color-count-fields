@@ -1,6 +1,6 @@
 # Laravel Nova Color Counter Field
 A colorable notifications in text or textarea Nova fields about min chars reached.
-
+![](https://github.com/yojnc/nova-color-count-fields/blob/assets/images/textarea_couter.png)
 ## Installation
 
 Install the package into a Laravel app that uses [Nova](https://nova.laravel.com) with Composer:
@@ -22,6 +22,7 @@ use YojNC\Fields\ColorCountText;
 
 ColorCountTextArea::make('Title')->minChars($minChars), // integer
 ```
+![](https://github.com/yojnc/nova-color-count-fields/blob/assets/images/text.png)
 The field is displayed as an `<input type="text">` element.
 
 The field extends the `Laravel\Nova\Fields\Text` field, so all the usual methods are available.
@@ -32,6 +33,7 @@ use YojNC\Fields\ColorCountTextArea;
 
 ColorCountTextArea::make('Title')->minChars($minChars), // integer
 ```
+![](https://github.com/yojnc/nova-color-count-fields/blob/assets/images/textarea.png)
 The field is displayed as an `<textarea></textare>` element.
 
 The field extends the `Laravel\Nova\Fields\TextArea` field, so all the usual methods are available.
@@ -49,4 +51,5 @@ use YojNC\Fields\ColorCountTextArea;
 
 ColorCountTextArea::make('Title')->minChars($count)->withCounter($showBool), //default $showBool = false
 ```
+![](https://github.com/yojnc/nova-color-count-fields/blob/assets/images/textarea_couter.png)
 
