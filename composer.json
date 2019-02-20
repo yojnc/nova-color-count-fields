@@ -1,0 +1,38 @@
+{
+    "name": "yojnc/nova-color-count-fields",
+    "description": "A Laravel Nova fields with color warning count.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "number",
+        "formatted"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Ananev",
+            "email": "yoj.nc1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YOJNC\\Fields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yojnc\\Fields\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
