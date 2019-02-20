@@ -1,6 +1,6 @@
 <?php
 
-namespace Yojnc\Fields;
+namespace YojNC\Fields;
 
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Textarea;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yojnc\Fields;
+namespace YojNC\Fields;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

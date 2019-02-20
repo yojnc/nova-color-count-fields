@@ -1,5 +1,5 @@
 <?php
-namespace Yojnc\Fields;
+namespace YojNC\Fields;
 
 
 trait ColorCounterTrait
