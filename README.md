@@ -18,7 +18,7 @@ minChars($count)
 ### Text Field
 Add the field to your resource in the ```fields``` method:
 ```php
-use Yojnc\Fields\ColorCountText;
+use YojNC\Fields\ColorCountText;
 
 ColorCountTextArea::make('Title')->minChars($minChars), // integer
 ```
@@ -28,7 +28,7 @@ The field extends the `Laravel\Nova\Fields\Text` field, so all the usual methods
 
 ### Textarea Field
 ```php
-use Yojnc\Fields\ColorCountTextArea;
+use YojNC\Fields\ColorCountTextArea;
 
 ColorCountTextArea::make('Title')->minChars($minChars), // integer
 ```
@@ -39,13 +39,13 @@ The field extends the `Laravel\Nova\Fields\TextArea` field, so all the usual met
 ### Available methods
 To show warning (yellow) between danger and success use this
 ```php
-use Yojnc\Fields\ColorCountTextArea;
+use YojNC\Fields\ColorCountTextArea;
 
 ColorCountTextArea::make('Title')->minChars($count)->errorUntil($percentageInt), //default $pectentage = 80
 ```
 To show counter inside alert box use this
 ```php
-use Yojnc\Fields\ColorCountTextArea;
+use YojNC\Fields\ColorCountTextArea;
 
 ColorCountTextArea::make('Title')->minChars($count)->withCounter($showBool), //default $showBool = true
 ```

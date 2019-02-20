@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "YOJNC\\Fields\\": "src/"
+            "YojNC\\Fields\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YOJNC\\Fields\\FieldServiceProvider"
+                "YojNC\\Fields\\FieldServiceProvider"
             ]
         }
     },
