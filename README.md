@@ -47,6 +47,6 @@ To show counter inside alert box use this
 ```php
 use YojNC\Fields\ColorCountTextArea;
 
-ColorCountTextArea::make('Title')->minChars($count)->withCounter($showBool), //default $showBool = true
+ColorCountTextArea::make('Title')->minChars($count)->withCounter($showBool), //default $showBool = false
 ```
 
