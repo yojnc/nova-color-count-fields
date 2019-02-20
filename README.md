@@ -20,7 +20,7 @@ Add the field to your resource in the ```fields``` method:
 ```php
 use Yojnc\Fields\ColorCountText;
 
-ColorCountTextArea::make('Title')->minChars(60),
+ColorCountTextArea::make('Title')->minChars($minChars), // integer
 ```
 The field is displayed as an `<input type="text">` element.
 
@@ -30,7 +30,7 @@ The field extends the `Laravel\Nova\Fields\Text` field, so all the usual methods
 ```php
 use Yojnc\Fields\ColorCountTextArea;
 
-ColorCountTextArea::make('Title')->minChars(60),
+ColorCountTextArea::make('Title')->minChars($minChars), // integer
 ```
 The field is displayed as an `<textarea></textare>` element.
 
